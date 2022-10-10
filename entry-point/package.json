@@ -1,0 +1,24 @@
+{
+    "name": "entry-point-examples",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "webpack",
+      "build-multi-entry": "webpack --config webpack-multi-entry.config.js",
+      "bundle": "webpack --config webpack-bundle.config.js",
+      "start": "serve dist"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+      "lodash": "^4.17.21"
+    },
+    "devDependencies": {
+      "serve": "^12.0.0",
+      "webpack": "^5.38.1",
+      "webpack-cli": "^4.7.2"
+    }
+  }
+  
